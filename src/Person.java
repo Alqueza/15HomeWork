@@ -30,4 +30,9 @@ public class Person {
     public void TOSTRING() {
         System.out.println("Имя:" + name + " Должность:" + designation);
     }
+
+    @Override
+    public String toString() {
+        return "Имя:"+name+" Роль:"+designation;
+}
 }

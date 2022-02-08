@@ -1,4 +1,5 @@
 public class Dancer extends Person {
+
     public String getGroupName() {
         return groupName;
     }
@@ -16,6 +17,10 @@ public class Dancer extends Person {
 
     public void dancing() {
         System.out.println(name + " красиво танцует");
-        System.out.println("Название группы:"+groupName);
+        System.out.println("Название группы:" + groupName);
+    }
+    @Override
+    public String toString() {
+        return "Имя:"+name+" Название группы:"+groupName+" Роль:"+designation;
     }
 }

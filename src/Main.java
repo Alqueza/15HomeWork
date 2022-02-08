@@ -1,24 +1,24 @@
 public class Main {
     public static void main(String[] args) {
         Person adilet = new Person("Adilet", "Student");
-        adilet.TOSTRING();
+        System.out.println(adilet);
         adilet.eat();
         adilet.walk();
         adilet.learn();
         System.out.println();
 
         Programmer programmer = new Programmer("Azamat", "Programmer", "QSU");
-        programmer.TOSTRING();
+        System.out.println(programmer);
         programmer.coding();
         System.out.println();
 
         Dancer dancer = new Dancer("Aleks", "Dancer", "Weekend");
-        dancer.TOSTRING();
+        System.out.println(dancer);
         dancer.dancing();
         System.out.println();
 
         Signer signer = new Signer("Sypin", "Signer", "Monoir");
-        signer.TOSTRING();
+        System.out.println(signer);
         signer.singing();
         signer.playGitar();
     }
