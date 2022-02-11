@@ -19,6 +19,21 @@ public class Programmer extends Person {
 
     @Override
     public String toString() {
-    return "Имя:"+name+" Название компании:"+companyName+" Роль:"+designation;
+    return "Имя:"+name+" Название компании:"+companyName+" Должность:"+designation;
 }
+
+    @Override
+    public void learn() {
+        System.out.println(name+" изучает программирование");
+    }
+
+    @Override
+    public void walk() {
+        System.out.println(name+" гуляет в парке");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println(name+" ест прекрасный завтрак");
+    }
 }
