@@ -30,7 +30,7 @@ public class Person {
     public void TOSTRING() {
         System.out.println("Имя:" + name + " Должность:" + designation);
     }
-
+//test
     @Override
     public String toString() {
         return "Имя:"+name+" Роль:"+designation;
